@@ -1,0 +1,14 @@
+So far;
+
+Started about 01/03/2021, early questions required use of more basic pyautogui functions such as pag.moveTo, pag.click only requiring input of coordinates.
+
+Coordinate mapping was something I learnt along the way, mostly by making use of the for _ in range(1000), print pag.position() function.
+
+A range of techniques were used overall i.e. recording questions on my phone to find where my current clicks were, and how I could tweak them to make them more accurate,
+the correct timing between questions i.e. hovering (allowing for LAG), also used a stopwatch on YT walkthrough tutorials for this.  I also used printscreens to see where
+I should be clicking relative to other objects on screen.
+
+14/03/2021
+stuck on question 102, moving the mouse to multiple red circles of different sizes on the screen, takes the script 5mins to get to this point (optimal), hard to record the
+location of each circle, tried videoing it and measuring relative to other objects.  Gaining a better understanding of the lenght of i.e. 10 bits.
+trying out the pag.locateonscreen function but its not very good for resized images!
