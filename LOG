@@ -16,6 +16,8 @@ trying out the pag.locateonscreen function but its not very good for resized ima
 14/03/2021 21:41
 Finaly finished q102, had to brute force it i.e. use the video on my phone to find a rough location, then run the script, record the result and tweak accordingly (inefficient
 but i'm not sure theres any better method if locateonscreen doesn't work.
+A USEFUL TRICK; if I couldn't pinpoint the precise location, I'd take note of the x coordinate, and simply trace a pag.moveTo along a vertical line so that the red dot was
+intercepted on the path.
 
 15/03/2021 2:22
 Code incomplete, question 106 is too laggy making it very hard to complete, could also be glitched.  Will complete when I have lots of free time in the future.  
