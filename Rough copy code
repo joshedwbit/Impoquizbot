@@ -2,7 +2,7 @@ import pyautogui as pag
 import pause
 import math
 import random
-#A=726,587
+#A=726,587 #clickboxes saved
 #B=1183,584
 #C=759,781
 #D=1149,768
