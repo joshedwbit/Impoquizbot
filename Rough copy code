@@ -1,0 +1,563 @@
+import pyautogui as pag
+import pause
+import math
+import random
+#A=726,587
+#B=1183,584
+#C=759,781
+#D=1149,768
+
+#pause.seconds(2)
+#pag.click(661, 776) #Use if starting from main menu
+#pause.seconds(0.5)
+"""
+NOTE page should be set at 90% magnification, at top of page, impossiblequiz.io
+required me in some cases to record question on my iphone to find where clicks were off, or for how 
+long a click needed to hover.  Also used stopwatch on yt walkthrough vids for this.  Printscreens to
+see where to click relative to other objects on screen
+"""
+pag.keyDown('alt')                              
+pag.press('tab')
+pag.keyUp('alt') 
+pause.seconds(0.5)
+
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(759, 781)
+pause.seconds(0.5)
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.click(966, 409)
+pause.seconds(0.5)
+
+pag.moveTo(1441,753) #question 5
+pag.click(button='right')
+pag.click(495,616)
+pause.seconds(0.5)
+
+pag.click(759, 781)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(745, 570)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+
+pag.click(793, 764)
+pause.seconds(1)
+pag.click(1183, 584) #question 11
+pause.seconds(0.5)
+pag.click(856, 291)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+
+pag.click(1036, 687) #question 15 (horse) 
+pause.seconds(0.5)
+pag.click(1189, 576)
+pause.seconds(0.5)
+pag.click(854, 574)
+pause.seconds(0.5)
+pag.click(707, 684)
+pause.seconds(0.5)
+pag.click(748, 600)
+pause.seconds(0.5)
+
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(513, 316)
+pause.seconds(0.5)
+pag.click(807, 646)
+pause.seconds(0.5)
+
+pag.click(951, 706) #question 19 (BOGGY)
+pause.seconds(0.5)
+pag.click(1061, 549)
+pause.seconds(0.5)
+pag.click(1325, 547)
+pause.seconds(0.5)
+pag.click(1325, 547)
+pause.seconds(0.5)
+pag.click(1181, 565)
+pause.seconds(0.5)
+pag.click(1371, 825)
+pause.seconds(0.5)
+
+pag.click(759, 781)
+pause.seconds(2)
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(545, 942)
+pause.seconds(0.5)
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.click(913, 576)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+
+pag.click(657, 692) #question 28
+pause.seconds(0.5)
+pag.click(759, 781)
+pause.seconds(0.5)
+
+pag.moveTo(548,751) #question 30
+pag.click(button='right')
+pag.click(1120,590)
+pause.seconds(0.5)
+
+pag.click(759, 781)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.moveTo(87, 495) #question 34
+pause.seconds(11)
+
+pag.click(961, 658)
+pause.seconds(1.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(726, 587)
+pause.seconds(0.5)
+
+pag.moveTo(723,587) #question 40
+pag.click(button='right')
+pag.click(1022,580)
+pause.seconds(0.5)
+
+pag.click(697, 295)
+pause.seconds(0.5)
+pag.click(615, 853)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+
+pag.moveTo(1222,472) #question 44
+pag.dragTo(625, 598,0.5,button='left')
+pag.click(1281,350)
+pause.seconds(0.5)
+
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(759, 781) #question 46
+pause.seconds(7)
+pag.click(1014, 508)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(1149, 768) #question 49
+pause.seconds(0.5)
+
+pag.click(726, 587)
+pause.seconds(0.5)
+
+for _ in range(15):
+    pag.click(1031, 689) #question 51 alternate rapid clicking
+    pag.click(843,673)
+pause.seconds(5) #was 3
+
+pag.click(1061, 608)
+pause.seconds(3)
+pag.click(759, 781)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(1183, 584)
+pause.seconds(6)
+
+pag.click(827, 408) #question 56
+pause.seconds(0.5)
+pag.click(1259, 767)
+pause.seconds(0.5)
+pag.click(827, 408)
+pause.seconds(0.5)
+pag.click(882, 834)
+pause.seconds(0.5)
+
+pag.click(726, 587)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+
+pag.moveTo(627,739)
+pag.click(clicks=60,interval=0.1) #question 59 repeatedly clicking
+pause.seconds(2.5)
+
+# pag.click(1150, 688) #USE IF DIED BEFORE
+# pause.seconds(0.5)
+pag.click(703, 681) #USE IF BOT FIRST TIME=Y/N to first time completion question 60
+pause.seconds(0.5)
+
+pag.click(726,587)
+pause.seconds(0.5)
+pag.click(600, 696)
+pause.seconds(0.5)
+pag.click(1183,584)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+pag.click(926,444)
+pause.seconds(0.5)
+
+pag.click(1140,425)
+pause.seconds(0.5)
+pag.click(665, 473)
+pause.seconds(3)
+
+#question 68 stroking cat
+for _ in range(103):
+    pag.moveTo(690,637)
+    pag.moveTo(880,448)
+pause.seconds(3.7)
+
+pag.click(1149, 768) #question 69
+pause.seconds(0.5)
+pag.click(759,781)
+pause.seconds(0.2)
+
+pag.click(759, 781) #question 71 (lights)
+pause.seconds(0.5)
+pag.click(480,585)
+pause.seconds(3)
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(759,781)
+pause.seconds(5)
+
+pag.click(493, 444) #bomb question
+pause.seconds(1)
+
+pag.click(615,675) #question 76
+pause.seconds(0.5)
+pag.click(1303, 705)
+pause.seconds(0.5)
+pag.click(1303,705)
+pause.seconds(0.5)
+
+pag.click(669, 818)
+pause.seconds(0.5)
+pag.click(726,587)
+pause.seconds(0.5)
+pag.click(628, 819)
+pause.seconds(0.5)
+pag.click(726,587)
+pause.seconds(0.5)
+
+#question 81 stroke pole
+for _ in range(88):
+    pag.moveTo(960,560)
+    pag.moveTo(957,693)
+pag.click(1319, 648)   
+pause.seconds(0.5)
+
+#question 82 toes ##
+pag.click(577,584) #1st
+pause.seconds(0.1)
+pag.click(590,661) #2nd
+pause.seconds(0.1)
+pag.click(647, 719) #3rd
+pause.seconds(0.1)
+pag.click(756,777) #4th
+pause.seconds(0.1)
+pag.click(900,789) #5th
+pause.seconds(0.1)
+pag.click(1106,794) #6th
+pause.seconds(0.1)
+pag.click(1249, 738) #7th
+pause.seconds(0.1)
+pag.click(1321,680) #8th
+pause.seconds(0.1)
+pag.click(1383,614) #9th
+pause.seconds(0.1)
+pag.click(1402,541) #10th 
+pause.seconds(0.5)
+
+pag.click(1149,768)    #question 83 D
+pause.seconds(1)
+
+pag.moveTo(944,690) #question 84 asteroids
+pag.moveTo(867,383)
+pause.seconds(11.5)
+pag.moveTo(610,360)
+pause.seconds(2.5)
+pag.moveTo(867,383)
+pause.seconds(1)
+pag.moveTo(1179,383)
+pause.seconds(2)
+pag.moveTo(1050,763)
+pause.seconds(1.2)
+
+pag.click(1183,584) #question 85
+pause.seconds(0.5)
+pag.click(759, 781) #question 86
+pause.seconds(0.5)
+pag.click(535, 341) #question 87
+pause.seconds(0.5)
+
+pag.moveTo(909,646)
+pag.click(clicks=55,interval=0.1) #question 88 repeatedly clicking sonic
+pause.seconds(1)
+
+pag.click(1183, 584)
+pause.seconds(0.5)
+pag.click(1149, 768)
+pause.seconds(0.5)
+
+pag.moveTo(785,709) #burn letter
+pag.moveTo(734,685,0.5)
+pag.moveTo(771,673,0.5)
+pag.moveTo(836,650,0.5)
+pag.moveTo(877,648,0.5)
+pag.moveTo(892,667,0.5)
+pag.moveTo(958,664,0.5)
+pag.moveTo(1014,669,0.5)
+pag.moveTo(1063,637,0.5)
+pag.moveTo(1105,620,0.5)
+pag.moveTo(1102,645,0.5)
+pag.moveTo(1116,634,0.5)
+pause.seconds(1.5)
+
+#question 92
+pag.click(1084,811) #6
+pause.seconds(0.5)
+pag.click(481,763) #1
+pause.seconds(0.5)
+pag.click(890,891) #4
+pause.seconds(0.5)
+pag.click(1302,786) #8
+pause.seconds(0.5)
+pag.click(969,819) #5
+pause.seconds(0.5)
+pag.click(589,846) #2
+pause.seconds(0.5) 
+pag.click(1202,806) #7
+pause.seconds(0.5)
+pag.click(1441,809) #9
+pause.seconds(0.5)
+pag.click(757,822) #3
+pause.seconds(0.5)
+pause.seconds(19)
+
+pag.moveTo(1407,289) #question 93
+pag.dragTo(1200, 289,0.5,button='left')
+pag.click(1407,289)
+pause.seconds(0.5)
+
+#question 94
+pag.moveTo(757,882)
+pause.seconds(21)
+
+#question 95
+pag.click(1057,659)
+pause.seconds(0.5)
+
+pag.click(759,781) 
+pause.seconds(0.5)
+pag.click(1149,768) 
+pause.seconds(0.5) 
+
+#question 98
+pag.click(1178,648) 
+pause.seconds(0.5)
+pag.click(683,530) 
+pause.seconds(0.5) 
+pag.click(1178,648) 
+pause.seconds(0.5)
+pag.click(1228,506) 
+pause.seconds(0.5)
+
+#question 99
+pause.seconds(9)
+pag.click(1200,560)
+pause.seconds(0.5)
+
+#question 100
+pag.click(1183,584)
+pause.seconds(9)
+
+#question101 Chihuahua
+pag.click(883,803) 
+pause.seconds(0.5)
+pag.click(998,740) 
+pause.seconds(0.5) 
+pag.click(1045,684) 
+pause.seconds(0.5)
+pag.click(989,744) 
+pause.seconds(0.5)
+pag.click(1016,672) 
+pause.seconds(0.5)
+pag.click(756,755) 
+pause.seconds(0.5) 
+pag.click(978,744) 
+pause.seconds(0.5)
+pag.click(1001,685) 
+pause.seconds(0.5)
+pag.click(757,755) 
+pause.seconds(4.6)
+
+# #question102 dots
+#screenshot of region of screen
+# reddot=pag.screenshot(region=(590,533,220,122))
+# reddot.save(r'C:\Users\joshi\Desktop\Coding programmes\VSCODE\reddot.png')
+pag.moveTo(563,432) #1
+pause.seconds(0.3)
+pag.moveTo(883,811) #2
+pause.seconds(0.3)
+pag.moveTo(1145,395) #3 second=1130,380, third=1135,385, 
+pause.seconds(0.3)
+pag.moveTo(486,734) #4
+pause.seconds(0.3)
+pag.moveTo(1371,787) #5
+pause.seconds(0.3)
+pag.moveTo(1260,331) #6
+pause.seconds(0.3)
+pag.moveTo(907,621) #7
+pause.seconds(0.3)
+pag.moveTo(1114,720) #filler
+pause.seconds(0.3)
+pag.moveTo(1368,635) #8
+pause.seconds(0.3)
+pag.moveTo(620,498) #9 pause after
+pause.seconds(1.8)
+pag.moveTo(867,930) #10
+#pause.seconds(0.3)
+pag.moveTo(736,365)
+pag.moveTo(736,353,0.5) #11
+#pag.moveTo(736,353,0.6) #tiny one
+pause.seconds(0.3)
+pag.moveTo(1445,392)
+pause.seconds(0.3)
+pag.moveTo(461,579)
+pause.seconds(0.3)
+pag.moveTo(945,732)
+pause.seconds(0.3)
+pag.moveTo(945,576)
+pause.seconds(6.9)
+
+#question103 tomoto
+pag.click(1140,662)
+pause.seconds(4)
+
+#question104 moon
+pag.click(1354,763)
+pause.seconds(2.8)
+
+#question105 spell banana
+pag.click(706,812) #b
+pause.seconds(0.3)
+pag.click(622,696) #a
+pause.seconds(0.3)
+pag.click(787,590) #n
+pause.seconds(0.3)
+pag.click(622,696) #a
+pause.seconds(0.3)
+pag.click(787,590) #n
+pause.seconds(0.3)
+pag.click(622,696) #a
+pause.seconds(2.5)
+
+'''
+#q106 long road (skip)
+pag.click(1440,950)
+pag.moveTo(1183,584)
+pause.seconds(13)
+'''
+#question106 long road
+pag.moveTo(666,779)
+pause.seconds(8.1) #was 8
+pag.moveTo(1062,779,2.2) #was 2.3
+pause.seconds(1.3)
+pag.moveTo(663,779)
+pause.seconds(0.5)
+pag.moveTo(663,505,0.45) #move to start of swirl
+pag.moveTo(1048,505)
+pag.moveTo(1205,744)
+pag.moveTo(1293,744)
+pause.seconds(1.5)
+pag.moveTo(561,744)
+pause.seconds(0.5)
+pag.moveTo(935,744) #first lane
+pause.seconds(1.5)
+pag.moveTo(540,744) #LHS lane
+pause.seconds(0.5)
+pag.moveTo(1119,744) #slow lane
+pause.seconds(1.5)
+pag.moveTo(477,744,0.5) #arrow
+pause.seconds(1.5)
+pag.click(477,734)
+
+
+#q107 code
+pag.click(790,773) #4
+pause.seconds(0.2)
+pag.click(804,843) #space
+pause.seconds(0.2)
+pag.click(1155,760) #8
+pause.seconds(0.2)
+pag.click(804,843) #space
+pause.seconds(0.2)
+pag.click(567,788) #1
+pause.seconds(0.2)
+pag.click(906,774) #5
+pause.seconds(0.2)
+pag.click(804,843) #space
+pause.seconds(0.2)
+pag.click(565,774) #1
+pause.seconds(0.2)
+pag.click(977,773) #6
+pause.seconds(0.2)
+pag.click(804,843) #space
+pause.seconds(0.2)
+pag.click(660,773) #2
+pause.seconds(0.2)
+pag.click(743,773) #3
+pause.seconds(0.2)
+pag.click(804,843) #space
+pause.seconds(0.2)
+pag.click(822,773) #4
+pause.seconds(0.2)
+pag.click(673,773) #2
+pause.seconds(0.2)
+pag.click(1283,842) #execute
+pause.seconds(5)
+
+#q109 monkey butt
+pag.moveTo(955,646)
+pag.click(clicks=55,interval=0.1) #question 109 repeat click monke
+pag.click(1038,839)
+pause.seconds(9.5)
+
+#10 skips
+pag.click(977,943)
+pause.seconds(0.3)
+pag.click(1056,943)
+pause.seconds(0.3)
+pag.click(1133,943)
+pause.seconds(0.3)
+pag.click(1208,943)
+pause.seconds(0.3)
+pag.click(1296,943)
+pause.seconds(0.3)
+pag.click(1369,943)
+pause.seconds(0.3)
+pag.click(1447,943)
+pause.seconds(0.3)
+
+# for _ in range(65):
+#     print(pag.position())
+#     pause.seconds(0.1)
+#     #print(pag.size())
+
