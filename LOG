@@ -22,3 +22,9 @@ intercepted on the path.
 15/03/2021 2:22
 Code incomplete, question 106 is too laggy making it very hard to complete, could also be glitched.  Will complete when I have lots of free time in the future.  
 A single simulation takes 6 minutes=very costly for time
+
+19/03/2021 00:27
+Altered the code for question 106 multiple times, changed how the mouse approaches the final straight to make sure it wasn't due to the mouse pausing in certain positions or
+sitting in the end position prematurely which the quiz might have resulted in the quiz throwing an error, but nothing seems to work.  This has made me think the problem 
+definitely lies in impossiblequiz.io itself.  If I get time at some point in the future I'll try the quiz on a different site, but due to changes in page layout this would mean
+reformatting the code completely making it very time consuming.  This code is complete (for now).
