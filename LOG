@@ -4,27 +4,21 @@ Started about 01/03/2021, early questions required use of more basic pyautogui f
 
 Coordinate mapping was something I learnt along the way, mostly by making use of the for _ in range(1000), print pag.position() function.
 
-A range of techniques were used overall i.e. recording questions on my phone to find where my current clicks were, and how I could tweak them to make them more accurate,
-the correct timing between questions i.e. hovering (allowing for LAG), also used a stopwatch on YT walkthrough tutorials for this.  I also used printscreens to see where
-I should be clicking relative to other objects on screen.
+A range of techniques were used overall i.e. recording questions on my phone to find where my current clicks were, and how I could tweak them to make them more accurate, the correct timing between questions i.e. hovering (allowing for LAG), also used a stopwatch on YT walkthrough tutorials for this.  I also used printscreens to see where I should be clicking relative to other objects on screen.
 
 14/03/2021 20:00
 stuck on question 102, moving the mouse to multiple red circles of different sizes on the screen, takes the script 5mins to get to this point (optimal), hard to record the
-location of each circle, tried videoing it and measuring relative to other objects.  Gaining a better understanding of the lenght of i.e. 10 bits.
+location of each circle, tried videoing it and measuring relative to other objects.  Gaining a better understanding of the length of i.e. 10 bits.
 trying out the pag.locateonscreen function but its not very good for resized images!
 
 14/03/2021 21:41
-Finaly finished q102, had to brute force it i.e. use the video on my phone to find a rough location, then run the script, record the result and tweak accordingly (inefficient
-but i'm not sure theres any better method if locateonscreen doesn't work.
+Finaly finished q102, had to brute force it i.e. use the video on my phone to find a rough location, then run the script, record the result and tweak accordingly (inefficient but i'm not sure theres any better method if locateonscreen doesn't work.
 A USEFUL TRICK; if I couldn't pinpoint the precise location, I'd take note of the x coordinate, and simply trace a pag.moveTo along a vertical line so that the red dot was
 intercepted on the path.
 
 15/03/2021 2:22
 Code incomplete, question 106 is too laggy making it very hard to complete, could also be glitched.  Will complete when I have lots of free time in the future.  
-A single simulation takes 6 minutes=very costly for time
+A single simulation takes 6 minutes=very costly for time.
 
 19/03/2021 00:27
-Altered the code for question 106 multiple times, changed how the mouse approaches the final straight to make sure it wasn't due to the mouse pausing in certain positions or
-sitting in the end position prematurely which the quiz might have resulted in the quiz throwing an error, but nothing seems to work.  This has made me think the problem 
-definitely lies in impossiblequiz.io itself.  If I get time at some point in the future I'll try the quiz on a different site, but due to changes in page layout this would mean
-reformatting the code completely making it very time consuming.  This code is complete (for now).
+Altered the code for question 106 multiple times, changed how the mouse approaches the final straight to make sure it wasn't due to the mouse pausing in certain positions or sitting in the end position prematurely which the quiz might have resulted in the quiz throwing an error, but nothing seems to work.  This has made me think the problem definitely lies in impossiblequiz.io itself.  If I get time at some point in the future I'll try the quiz on a different site, but due to changes in page layout this would mean reformatting the code completely making it very time consuming.  This code is complete (for now).
